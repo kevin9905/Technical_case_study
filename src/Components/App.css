@@ -1,0 +1,297 @@
+@media only screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+  }
+
+  .comic {
+    white-space: pre-line;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 20px;
+  }
+  img {
+    padding-bottom: 30px;
+    margin: 10px;
+    width: 80%;
+  }
+  .comic h3,
+  .comic p {
+    text-align: left;
+    margin: 20px;
+  }
+
+  button {
+    display: relative;
+    background: black;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button:hover.previousButton,
+  button:hover.nextButton,
+  button:hover.random,
+  button:hover.current {
+    color: black;
+    background-color: white;
+  }
+  button span.next::after {
+    content: "\000BB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.next {
+    padding-right: 15px;
+  }
+  .button:hover span.next::after {
+    opacity: 1;
+    right: 0px;
+  }
+  button span.previous::after {
+    content: "\000AB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.previous {
+    padding-left: 15px;
+  }
+  .button:hover span.previous::after {
+    opacity: 1;
+    right: 0px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .App {
+    text-align: center;
+  }
+
+  .comic {
+    white-space: pre-line;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 30px;
+  }
+  img {
+    padding-bottom: 30px;
+    margin: 20px;
+    width: 60%;
+  }
+  .comic h3,
+  .comic p {
+    text-align: left;
+    margin: 20px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  button {
+    display: relative;
+    background: black;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button:hover.previousButton,
+  button:hover.nextButton,
+  button:hover.random,
+  button:hover.current {
+    color: black;
+    background-color: white;
+  }
+  button span.next::after {
+    content: "\000BB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.next {
+    padding-right: 15px;
+  }
+  .button:hover span.next::after {
+    opacity: 1;
+    right: 0px;
+  }
+  button span.previous::after {
+    content: "\000AB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.previous {
+    padding-left: 15px;
+  }
+  .button:hover span.previous::after {
+    opacity: 1;
+    right: 0px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .App {
+    text-align: center;
+  }
+
+  .comic {
+    white-space: pre-line;
+  }
+  img {
+    width: auto;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  button {
+    display: relative;
+    background: black;
+    border: none;
+    color: white;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button:hover.previousButton,
+  button:hover.nextButton,
+  button:hover.random,
+  button:hover.current {
+    color: black;
+    background-color: white;
+  }
+  button span.next::after {
+    content: "\000BB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.next {
+    padding-right: 15px;
+  }
+  .button:hover span.next::after {
+    opacity: 1;
+    right: 0px;
+  }
+  button span.previous::after {
+    content: "\000AB";
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: -20px;
+    transition: 0.5s;
+  }
+
+  button:hover span.previous {
+    padding-left: 15px;
+  }
+  .button:hover span.previous::after {
+    opacity: 1;
+    right: 0px;
+  }
+
+  nav {
+    margin: 30px;
+  }
+
+  .comic h3,
+  .comic p {
+    text-align: left;
+    margin-left: 450px;
+    margin-right: 300px;
+  }
+}
+
+/* @media only screen and (max-width: 1100px) and (min-width: 400px) {
+  img {
+    padding-bottom: 30px;
+    margin: 0;
+    width: 50%;
+  }
+  .comic h3,
+  .comic p {
+    text-align: left;
+    margin: 10px;
+  }
+} */
