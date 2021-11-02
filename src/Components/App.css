@@ -1,3 +1,4 @@
+/* for small device */
 @media only screen and (max-width: 600px) {
   .App {
     text-align: center;
@@ -89,6 +90,7 @@
     right: 0px;
   }
 }
+/* for medium device */
 @media only screen and (min-width: 600px) {
   .App {
     text-align: center;
@@ -189,6 +191,7 @@
     right: 0px;
   }
 }
+/* for large device */
 @media only screen and (min-width: 1200px) {
   .App {
     text-align: center;
