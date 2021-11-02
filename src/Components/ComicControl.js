@@ -32,7 +32,7 @@ class ComicControl extends React.Component {
         >
           <span>Random Comic</span>
         </button>
-        <button className="current" onClick={() => buttonClick("")}>
+        <button className="current" onClick={() => buttonClick("latest")}>
           <span>Lastest Comic</span>
         </button>
       </nav>
