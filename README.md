@@ -1,5 +1,5 @@
 # Getting Started 
-You can view a live demo over at https://technical-xkcd-comic.herokuapp.com/
+You can view a live demo over at https://technical-xkcd-comic.herokuapp.com/ \
 This project is used React-Redux and made the UI with vanilla CSS.
 
 ## Available Scripts
