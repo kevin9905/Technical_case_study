@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started 
+You can view a live demo over at https://technical-xkcd-comic.herokuapp.com/
+This project is used React-Redux and made the UI with vanilla CSS.
 
 ## Available Scripts
 
